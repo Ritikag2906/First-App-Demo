@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
-import 'package:flutter_application_2/app_screens/first_screen.dart';
-import './app_screens/first_screen.dart';
+//import 'package:flutter_application_2/app_screens/first_screen.dart';
+//import './app_screens/first_screen.dart';
+import 'app_screens/second_screen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -12,8 +13,8 @@ class MyApp extends StatelessWidget {
         title: "My First App",
         home: Scaffold(
             appBar: AppBar(
-              title: Text("First App Screen"),
+              title: Text("Second App Screen"),
             ),
-            body: FirstScreen()));
+            body: SecondScreen()));
   }
 }
