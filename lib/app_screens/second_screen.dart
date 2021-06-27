@@ -7,9 +7,9 @@ class SecondScreen extends StatelessWidget {
         color: Colors.black,
         child: Center(
             child: Text(
-          "This is Your First App, Hello Flutter!",
+          "Hey there,this is Your First App, Hello Flutter!",
           textDirection: TextDirection.ltr,
-          style: TextStyle(color: Colors.white, fontSize: 35.0),
+          style: TextStyle(color: Colors.white, fontSize: 30.0),
         )));
   }
 }
